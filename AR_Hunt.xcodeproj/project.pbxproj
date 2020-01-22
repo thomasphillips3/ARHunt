@@ -16,6 +16,8 @@
 		8FB21D8F1E13C39F00B3E330 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB21D8E1E13C39F00B3E330 /* MapViewController.swift */; };
 		8FB21D961E13DEA200B3E330 /* Fireball.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 8FB21D941E13DEA200B3E330 /* Fireball.scnp */; };
 		8FB21D971E13DEA200B3E330 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB21D951E13DEA200B3E330 /* spark.png */; };
+		E9192E8423D6DFEB0058A1E6 /* ARItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9192E8323D6DFEB0058A1E6 /* ARItem.swift */; };
+		E9192E8623D6E3880058A1E6 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9192E8523D6E3880058A1E6 /* MapAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		8FB21D8E1E13C39F00B3E330 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8FB21D941E13DEA200B3E330 /* Fireball.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fireball.scnp; sourceTree = "<group>"; };
 		8FB21D951E13DEA200B3E330 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E9192E8323D6DFEB0058A1E6 /* ARItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARItem.swift; sourceTree = "<group>"; };
+		E9192E8523D6E3880058A1E6 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				8FB21D941E13DEA200B3E330 /* Fireball.scnp */,
 				8FB21D951E13DEA200B3E330 /* spark.png */,
 				8FB21D861E13C34900B3E330 /* Info.plist */,
+				E9192E8323D6DFEB0058A1E6 /* ARItem.swift */,
+				E9192E8523D6E3880058A1E6 /* MapAnnotation.swift */,
 			);
 			path = AR_Hunt;
 			sourceTree = "<group>";
@@ -119,6 +125,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -154,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FB21D7D1E13C34900B3E330 /* ViewController.swift in Sources */,
+				E9192E8623D6E3880058A1E6 /* MapAnnotation.swift in Sources */,
+				E9192E8423D6DFEB0058A1E6 /* ARItem.swift in Sources */,
 				8FB21D8F1E13C39F00B3E330 /* MapViewController.swift in Sources */,
 				8FB21D7B1E13C34900B3E330 /* AppDelegate.swift in Sources */,
 			);
@@ -281,7 +290,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.AR-Hunt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -294,7 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.AR-Hunt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
